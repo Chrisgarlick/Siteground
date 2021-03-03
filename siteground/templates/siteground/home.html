@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Cheap Hosting{% endblock %}
+
+{% block content %}
+    <div class="top">
+        <h1>Need cheap and fast website hosting?</h1>
+        <img src="{% static 'img/Siteground.png' %}" alt="">
+    </div>
+    <div class="middle">
+        <div class="startup">
+            <p>£5.99 per month</p>
+            <span><p><img src="{% static 'img/icon-down.svg' %}" alt=""> from £11.99/mo</p></span>
+        </div>
+        <div class="growbig">
+            <p>£8.99 per month</p>
+            <span><p><img src="{% static 'img/icon-down.svg' %}" alt=""> from £19.99/mo</p></span>
+        </div>
+        <div class="gogeek">
+            <p>£12.99 per month</p>
+            <span><p><img src="{% static 'img/icon-down.svg' %}" alt=""> from £29.99/mo</p></span>
+        </div>
+        <input type="submit" value="GET STARTED">
+    </div>
+    <div class="bottom">
+        <div class="domain">
+            <p>Domain management</p>
+            <span><p>Easily manage and transfer your domains!</p></span>
+        </div>
+        <div class="email">
+            <p>Free and Reliable email</p>
+            <span><p>Get an email address free with each Siteground Hosting plan!</p></span>
+        </div>
+        <div class="ssl">
+            <p>Free SSL</p>
+            <span><p>Need safe and secure websites with https? Get your SSL for FREE!</p></span>
+        </div>
+        <div class="support">
+            <p>Expert Support</p>
+            <span><p>Receive expert all round help, as and when you need it!</p></span>
+        </div>
+    </div>
+{% endblock %}

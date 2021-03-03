@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0E2E7;
+}
+
+.top {
+    padding: 30px 0 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #3F784C;
+}
+.top h1 {
+    width: 35%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 5px 5px 5px 0px #808080;
+}
+
+.middle {
+    padding: 10px 0 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transform: translateX(70px);
+}
+.startup {
+    padding: 0 100px;
+    border-right: 1px solid #808080;
+}
+.startup p, .growbig p, .gogeek p {
+    font-size: 24px;
+}
+.startup span p {
+    transform: translate(30px, -20px);
+    font-size: 12px;
+}
+.growbig {
+    padding: 0 100px;
+    border-right: 1px solid #808080;
+}
+.growbig span p {
+    transform: translate(30px, -20px);
+    font-size: 12px;
+}
+.gogeek {
+    padding: 0 100px;
+}
+.gogeek span p {
+    transform: translate(30px, -20px);
+    font-size: 12px;
+}
+.startup span p img, .growbig span p img, .gogeek span p img {
+    padding-right: 10px;
+    height: 10px;
+}
+
+input {
+    width: 10%;
+    height: 40px;
+    background-color: #06354A;
+    transform: translate(-640px, 100px);
+    color: #F8E3DD;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 0px #808080;
+}
+
+span {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100px);
+    text-align: center;
+}
+.domain {
+    width: 22%;
+    border: 1px solid #06354A;
+    background-color: #06354A;
+    border-radius: 25px;
+    color: #F0E2E7;
+    box-shadow: 5px 5px 5px 1px #808080;
+}
+.email {
+    width: 22%;
+    border: 1px solid #6C3751;
+    margin-left: 20px;
+    background-color: #6C3751;
+    border-radius: 25px;
+    color: #F0E2E7;
+    box-shadow: 5px 5px 5px 1px #808080;
+}
+.ssl {
+    width: 22%;
+    border: 1px solid #087CA7;
+    margin-left: 20px;
+    border-radius: 25px;
+    background-color: #087CA7;
+    color: #F0E2E7;
+    box-shadow: 5px 5px 5px 1px #808080;
+}
+.support {
+    width: 22%;
+    border: 1px solid #3F784C;
+    margin-left: 20px;
+    border-radius: 25px;
+    background-color: #3F784C;
+    color: #F0E2E7;
+    box-shadow: 5px 5px 5px 1px #808080;
+}
+.domain p, .email p, .ssl p, .support p {
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.domain span, .email span, .ssl span, .support span {
+    text-align: left;
+}
+.domain span p, .email span p, .support span p {
+    padding: 0 20px 0 30px;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-transform: unset;
+}
+.ssl span p {
+    padding: 0 20px;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-transform: unset;
+}
